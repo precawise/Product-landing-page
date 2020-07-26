@@ -108,7 +108,7 @@ body{
 #video{
      width:105%;
      height:315px;
-     margin-top:100px;
+     margin-top:50px;
 }
 #main-container{
      margin-top:45%;
@@ -128,8 +128,6 @@ body{
      justify-content:center;
      text-align:center;}
 #container2{
-     /* padding-left:10%; */
-     /* background:white; */
      margin-left:20px;
      width:100%;
      border:1px solid black;
@@ -190,11 +188,9 @@ footer{
 }
 ul{
      font-size:25px;
-     /* margin-left:250px; */
      font-weight:bolder;
      word-spacing:50px;
      list-style-type:none;
-     /* margin-top: 50%; */
 }
 a{
      list-style-type:none;
