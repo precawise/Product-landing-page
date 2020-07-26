@@ -1,0 +1,343 @@
+body{
+     background:#eee;
+}
+#header-body{
+     display:flex;
+}
+#header-img{
+    height: 40px;
+    margin-left:50px;
+    margin-top:50px;
+}
+#nav-bar{
+     padding-left: 20%;
+     padding-top:60px;
+}
+.nav-link1{
+     list-style-type:none;
+     text-decoration:none;
+     color: black;
+     font-size:25px;
+     font-weight:bolder;
+}
+
+.nav-link2{
+     list-style-type:none;
+     text-decoration:none;
+     color: black;
+     font-size:25px;
+     margin-left:100px;
+     font-weight:bolder;
+}
+#head{
+      margin-left:40%;
+      margin-top:5%;
+}
+#head1{
+     width:40%;
+     margin-left: 50px;
+     height:40px;
+}
+#head-button{
+     background-color: #f1c40f;
+     padding: 9px;
+     text-decoration: none;
+     color:black;
+     width: 15%;
+     margin-left:15%;
+     margin-top: 20px;
+     font-size: 20px;
+}
+#main-body{
+     display:flex;
+     margin-top:10%;
+     margin-left:-45%;
+}
+#body-img{
+     width:13%;
+     margin-top:10px;
+     padding-left:50px;
+}
+#body-one{
+     font-weight:bolder;
+     font-size:21px;
+     width:auto;
+}
+.body-p{
+     margin-top:-20px;
+}
+#main-body1{
+     display:flex;
+     margin-top:5%;
+     margin-left:-40%;
+}
+#body-img1{
+     width:20%;
+     margin-top:10px;
+     margin-left:20px;
+}
+#body-one1{
+     font-weight:bolder;
+     width:100%;
+     font-size:20px;
+     margin-left:-5px;
+}
+.body-p{
+     margin-top:-20px;
+}
+#main-body2{
+     display:flex;
+     margin-top:10%;
+     margin-left:-85%;
+}
+#body-img2{
+     width:20%;
+     margin-top:10px;
+     margin-left:9%;
+}
+#body-one2{
+     font-weight:bolder;
+     font-size:20px;
+     width:auto;
+     padding-left:15px;
+}
+.body-para{
+     margin-top:-20px;
+     display:inline-table;
+}
+#video{
+     width:105%;
+     height:315px;
+     margin-top:100px;
+}
+#main-container{
+     margin-top:45%;
+     margin-left:-25%;
+     display:flex;
+     width:100%;
+     margin-right:10%;
+     justify-content:center;
+     text-align:center;
+}
+#container1{
+     /* padding-left:5%; */
+     margin-left:-40%;
+     /* background:white; */
+     width:100%;
+     border: 1px solid black;
+     justify-content:center;
+     text-align:center;}
+#container2{
+     /* padding-left:10%; */
+     /* background:white; */
+     margin-left:20px;
+     width:100%;
+     border:1px solid black;
+}
+#container3{
+     margin-left:20px;
+     width:100%;
+     border:1px solid black;
+}
+#head-button1{
+     background-color: orange;
+     padding: 9px;
+     text-decoration: none;
+     color:black;
+     width: 20%;
+     margin-top: 50px;
+     margin-bottom:20px;
+     font-size: 20px;
+     margin-left: 30%;
+}
+.para1{
+     background:#dddd;
+     color:black;
+     height:40px;
+     padding-top:20px;
+     padding-bottom:20px;
+     /* margin-left:-41px; */
+     margin-top:-0px;
+}
+.para2{
+     background:#dddd;
+     color:black;
+     height:40px;
+     padding-top:20px;
+     padding-bottom:20px;
+     /* margin-left:-80px; */
+     margin-top:-0px;
+}
+.para3{
+     background:#dddd;
+     color:black;
+     height:40px;
+     padding-top:20px;
+     padding-bottom:20px;
+     padding-left:90px;
+     /* margin-left:-50px; */
+     margin-top:-0px;
+}
+footer{
+    text-align:end;
+    justify-content:end;
+    margin-right:9%;
+    margin-left:20%;
+    margin-top:30px;
+    background-color:#ddd;
+    padding:20px;
+
+}
+ul{
+     font-size:25px;
+     /* margin-left:250px; */
+     font-weight:bolder;
+     word-spacing:50px;
+     list-style-type:none;
+     /* margin-top: 50%; */
+}
+a{
+     list-style-type:none;
+     text-decoration:none;
+     color:black;
+}
+@media only screen and (max-width: 768px) {
+     /* For mobile phones: */
+     #header-img{
+         width: 480px;
+     }
+     #nav-bar{
+          margin-top:15%;
+          margin-left:-85%;
+          justify-content: center;
+          align-content:center;
+     }
+     .nav-link1{
+          margin-left:70px;
+          display:block;
+          margin-top:-50px;
+     }
+     
+     .nav-link2{
+          display:block;
+          margin-left:60px;
+     }
+     h1{
+          font-size:25px;
+          margin-top:60px;
+          margin-left:-95px;
+     }
+     #head{
+           margin-left:40%;
+           margin-top:5%;
+     }
+     #head1{
+          width:75%;
+          margin-left:-50px;
+          height:30px;
+     }
+     #head-button{ 
+          padding:8px;
+          width:50%;
+          margin-left: -5%;
+     }
+     #main-body{
+        font-size:15px;
+        display:inline;
+        margin-left:-10%;        
+     }
+     #body-img{
+          width:20px;
+          height:80px;
+          margin-left:-10%; 
+     }
+     #body-one{
+        margin-left:-50%; 
+        text-align:center;   
+     }
+     #main-body1{
+        font-size:15px;
+        display:inline;
+        margin-left:-10%; 
+     }
+     #body-img1{
+          width:20px;
+          height:80px;
+          margin-left:15%; 
+     }
+     #body-one1{
+          margin-left:-30%; 
+          text-align:center;  
+          align-items:center;
+     }
+     #main-body2{
+          font-size:15px;
+          display:inline;
+          margin-left:-10%; 
+     }
+     #body-img2{
+          width:20px;
+          height:80px;
+          margin-left:15%; 
+     }
+     #body-one2{
+          margin-left:-30%; 
+          text-align:center;  
+          align-items:center;
+          margin-top:-10px;
+     }
+     #video{
+          width:110%;
+          margin-left:-35%;
+          margin-top:90px;
+     }
+     #main-container{
+          width:100%;
+          margin-left:10%;
+          display:inline;
+         
+     }
+     #container1{
+        width:140%;
+        margin-top:10%;
+        margin-left:-55%;
+     }
+     #container2{
+          width:140%;
+          margin-top:10%;
+          margin-left:-55%;
+         
+     }
+     #container3{
+          width:140%;
+          margin-top:10%;
+          margin-left:-55%;
+         
+     }
+     #head-button1{
+          padding: 8px;
+          width:2%;
+          margin-left: 40%;
+         
+     }
+     .para1{
+          margin-left:-0%;
+     }
+     .para2{
+          margin-left:-0%;
+         
+     }
+     .para3{
+          margin-left:-0%;
+         
+     }
+     .paa2{
+          margin-left:0;
+     }
+     footer{
+         margin-right:5%;
+         margin-left:-7%;
+         width:100%;
+     
+     }
+ };
